@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AplicacionWebEscolar.Models.Clase>
+
+@{
+    ViewBag.Title = "Listado de Clases";
+}
+
+<h2>Listado de Clases</h2>
+
+<p>
+    @Html.ActionLink("Registrar clase", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Clase
+        </th>
+        <th>
+            Maestro
+        </th>
+        <th>
+            Materia
+        </th>
+        <th>
+            Horario
+        </th>
+        <th>
+            Máximo alumnos
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Maestro.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Materia.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Horario.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.MaxAlumnos)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Estatus)
+    </td>
+    <td>
+        @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+        @Html.ActionLink("Detalles", "Details", new { id = item.Id }) |
+        @Html.ActionLink("Eliminar", "Delete", new { id = item.Id })
+    </td>
+</tr>
+}
+
+</table>

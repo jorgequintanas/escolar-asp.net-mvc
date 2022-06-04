@@ -1,0 +1,81 @@
+﻿@model AplicacionWebEscolar.Models.Horario
+
+@{
+    ViewBag.Title = "Editar Horario";
+}
+
+<h2>Editar Horario</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <fieldset>
+        <legend>Horario</legend>
+
+        <label>
+            <span>@Html.DisplayNameFor(model => model.Nombre)</span>
+            @Html.EditorFor(model => model.Nombre)
+        </label>
+        <label>
+            <span>@Html.DisplayNameFor(model => model.Estatus)</span>
+            @Html.EditorFor(model => model.Estatus)
+        </label>
+        <br /><br />
+        <table class="table">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    DÍA SEMANA
+                </th>
+                <th>
+                    HORA INICIO
+                </th>
+                <th>
+                    HORA FIN
+                </th>
+                <th>
+                    <button type="submit" name="operacion" data-val="false" value="agregar-detalle">Agregar Detalle</button>
+                </th>
+                <th></th>
+            </tr>
+            @if (Model != null && Model.Detalles != null && Model.Detalles.Count > 0)
+            {
+                var i = 0;
+                foreach (var item in Model.Detalles)
+                {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+
+            <td>
+                @Html.DropDownList("Detalles[" + i + "].DiaSemana", new SelectList(ViewBag.Dias, "Value", "Text", item.diaSemana))
+            </td>
+            <td>
+                @Html.DropDownList("Detalles[" + i + "].HoraInicio", new SelectList(ViewBag.Horas, "Value", "Text", item.horaInicio))
+            </td>
+            <td>
+                @Html.DropDownList("Detalles[" + i + "].HoraFin", new SelectList(ViewBag.Horas, "Value", "Text", item.horaFin))
+            </td>
+            <td><button type="submit" name="operacion" value="eliminar-detalle-@i">Eliminar</button></td>
+            <td></td>
+
+        </tr>
+                    i++;
+                }
+            }
+        </table>
+
+        <p>
+            <input type="submit" value="Guardar" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Volver al listado", "Index")
+</div>

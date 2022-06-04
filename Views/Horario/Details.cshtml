@@ -1,0 +1,75 @@
+﻿@model AplicacionWebEscolar.Models.Horario
+
+@{
+    ViewBag.Title = "Detalle de Horario";
+}
+
+<h2>Detalle de Horario</h2>
+
+<div>
+    <h4>Horario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estatus)
+        </dd>
+
+    </dl>
+
+    <table class="table">
+        <tr>
+            <th>
+                DÍA SEMANA
+            </th>
+            <th>
+                HORA
+            </th>
+            
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.Detalles)
+        {
+            <tr>
+                <td>
+                    @{
+                        string dia = "";
+                        switch (item.diaSemana)
+                        {
+                            case 1: dia = "Lunes"; break;
+                            case 2: dia = "Martes"; break;
+                            case 3: dia = "Miércoles"; break;
+                            case 4: dia = "Jueves"; break;
+                            case 5: dia = "Viernes"; break;
+                            case 6: dia = "Sábado"; break;
+                            case 7: dia = "Domingo"; break;
+                        };
+                    }
+                    @dia
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.horaInicio) - @Html.DisplayFor(modelItem => item.horaFin)
+                </td>
+                
+            </tr>
+        }
+
+    </table>
+
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Volver al listado", "Index")
+</p>

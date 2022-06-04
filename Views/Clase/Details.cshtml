@@ -1,0 +1,66 @@
+﻿@model AplicacionWebEscolar.Models.Clase
+
+@{
+    ViewBag.Title = "Detalle de Clase";
+}
+
+<h2>Detalle de Clase</h2>
+
+<div>
+    <h4>Clase</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            NOMBRE
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            MAESTRO
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Maestro.Nombre) @Html.DisplayFor(model => model.Maestro.Apellidos)
+        </dd>
+
+        <dt>
+            MATERIA
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Materia.Nombre)
+        </dd>
+
+        <dt>
+            HORARIO
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Horario.Nombre)
+        </dd>
+
+        <dt>
+            MÁXIMO ALUMNOS
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxAlumnos)
+        </dd>
+
+        <dt>
+            ESTATUS
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Volver al listado", "Index")
+</p>

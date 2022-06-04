@@ -1,0 +1,126 @@
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\AplicacionWebEscolar.dll.config
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\AplicacionWebEscolar.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\AplicacionWebEscolar.pdb
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\csc.exe.config
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\csc.rsp
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\csi.exe
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\csi.rsp
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\vbc.exe.config
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\vbc.rsp
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\WebGrease.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\es\System.Web.Helpers.resources.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\es\System.Web.Mvc.resources.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\es\System.Web.Optimization.resources.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\es\System.Web.Razor.resources.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\es\System.Web.WebPages.resources.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.csproj.CopyComplete
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.dll
+C:\Users\PC\Desktop\Trabajo\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.pdb
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\AplicacionWebEscolar.dll.config
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\AplicacionWebEscolar.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\AplicacionWebEscolar.pdb
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\csc.exe
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\csc.exe.config
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\csc.rsp
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\csi.exe
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\csi.rsp
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\System.AppContext.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\System.Collections.Immutable.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\System.IO.FileSystem.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\vbc.exe
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\vbc.exe.config
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\vbc.rsp
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\VBCSCompiler.exe
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\roslyn\VBCSCompiler.exe.config
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\Antlr3.Runtime.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\Microsoft.Web.Infrastructure.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\Newtonsoft.Json.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.Helpers.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.Mvc.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.Optimization.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.Razor.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.WebPages.Deployment.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.WebPages.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.WebPages.Razor.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\WebGrease.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.Helpers.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.Mvc.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.Optimization.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.Razor.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.WebPages.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.WebPages.Deployment.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\System.Web.WebPages.Razor.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\Newtonsoft.Json.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\Antlr3.Runtime.pdb
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\es\System.Web.Helpers.resources.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\es\System.Web.Mvc.resources.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\es\System.Web.Optimization.resources.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\es\System.Web.Razor.resources.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\es\System.Web.WebPages.resources.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.csproj.AssemblyReference.cache
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.csproj.CoreCompileInputs.cache
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.csproj.CopyComplete
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.dll
+D:\Documentos\JQ\API\REST API\Aplicación WEB ASP.NET\AplicacionWebEscolar\obj\Debug\AplicacionWebEscolar.pdb

@@ -12,7 +12,7 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Nombre)
+            NOMBRE
         </dt>
 
         <dd>
@@ -20,7 +20,30 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.MaxAlumnos)
+            MAESTRO
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Maestro.Nombre) @Html.DisplayFor(model => model.Maestro.Apellidos)
+        </dd>
+        
+        <dt>
+            MATERIA
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Materia.Nombre)
+        </dd>
+
+        <dt>
+            HORARIO
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Horario.Nombre)
+        </dd>
+        <dt>
+            MÁXIMO ALUMNOS
         </dt>
 
         <dd>
@@ -28,7 +51,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Estatus)
+            ESTATUS
         </dt>
 
         <dd>

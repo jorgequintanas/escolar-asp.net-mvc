@@ -18,7 +18,7 @@ namespace AplicacionWebEscolar.Controllers
         public async Task<ActionResult> Index()
         {
             List<Clase> listaClases = await ObtenerClases();
-
+            
             foreach (Clase clase in listaClases)
             {
                 using (var maestroC = new MaestroController())
@@ -104,27 +104,38 @@ namespace AplicacionWebEscolar.Controllers
             }
         }
 
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            return View();
+            Clase clase = await ObtenerClase(id);
+
+            using (var maestroC = new MaestroController())
+            {
+                Maestro maestro = await maestroC.ObtenerMaestro(clase.Maestro.Id);
+                clase.Maestro = maestro;
+            }
+            using (var materiaC = new MateriaController())
+            {
+                Materia materia = await materiaC.ObtenerMateria(clase.Materia.Id);
+                clase.Materia = materia;
+            }
+            using (var horarioC = new HorarioController())
+            {
+                Horario horario = await horarioC.ObtenerHorario(clase.Horario.Id);
+                clase.Horario = horario;
+            }
+
+            return View(clase);
         }
 
         [HttpPost]
         public async Task<ActionResult> Delete(Clase clase)
         {
-            try
-            {
-                if (ModelState.IsValid)
-                {
-                    if (await EliminarClase(clase))
-                        return RedirectToAction("Index");
-                }
+            clase = await ObtenerClase(clase.Id);
+
+            if (await EliminarClase(clase))
                 return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+            
+            return View();
         }
 
         private async Task<List<SelectListItem>> GenerarItemsMaestros()
@@ -215,6 +226,7 @@ namespace AplicacionWebEscolar.Controllers
                     nombre = clase.Nombre,
                     maestro = new
                     {
+                        id = clase.Maestro.Id,
                         nombre = clase.Maestro.Nombre,
                         apellidos = clase.Maestro.Apellidos,
                         telefono = clase.Maestro.Telefono,
@@ -239,7 +251,7 @@ namespace AplicacionWebEscolar.Controllers
 
                 var strNJsonUpdate = new
                 {
-                    id = clase.Maestro.Id,
+                    id = clase.Id,
                     nombre = clase.Nombre,
                     maestro = new
                     {
